@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Navigate to Site]]>
+    </line>
+    <line>
+      <![CDATA[Searching in the Site]]>
+    </line>
+    <line>
+      <![CDATA[Search Site Confirmation]]>
+    </line>
+    <line>
+      <![CDATA[Successful searching confirmation]]>
+    </line>
+    <line>
+      <![CDATA[SuccessFull Publication opening]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49609" started-at="2016-07-01T03:21:56Z" finished-at="2016-07-01T03:22:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="49609" started-at="2016-07-01T03:21:56Z" finished-at="2016-07-01T03:22:46Z">
+      <class name="com.sirsidynix.prokarma.laureano_test.Tests">
+        <test-method status="PASS" signature="before()[pri:0, instance:com.sirsidynix.prokarma.laureano_test.Tests@5f936fc6]" name="before" is-config="true" duration-ms="4722" started-at="2016-07-01T00:21:56Z" finished-at="2016-07-01T00:22:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.sirsidynix.prokarma.laureano_test.Tests@5f936fc6]" name="search" duration-ms="44864" started-at="2016-07-01T00:22:01Z" finished-at="2016-07-01T00:22:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigate to Site]]>
+            </line>
+            <line>
+              <![CDATA[Searching in the Site]]>
+            </line>
+            <line>
+              <![CDATA[Search Site Confirmation]]>
+            </line>
+            <line>
+              <![CDATA[Successful searching confirmation]]>
+            </line>
+            <line>
+              <![CDATA[SuccessFull Publication opening]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.sirsidynix.prokarma.laureano_test.Tests@5f936fc6]" name="afterMethod" is-config="true" duration-ms="2" started-at="2016-07-01T00:22:46Z" finished-at="2016-07-01T00:22:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=search status=SUCCESS method=Tests.search()[pri:0, instance:com.sirsidynix.prokarma.laureano_test.Tests@5f936fc6] output=Navigate to Site]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.sirsidynix.prokarma.laureano_test.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
